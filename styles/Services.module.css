@@ -1,0 +1,193 @@
+.servicesHeader {
+  height: auto;
+  background: linear-gradient(
+    180deg,
+    #13161d 0%,
+    rgba(19, 22, 29, 0.97) 23.64%,
+    rgba(19, 22, 29, 0.95) 46.35%,
+    rgba(19, 22, 29, 0.94) 66.67%,
+    rgba(19, 22, 29, 0.94) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:10rem;
+  border-bottom: 2px solid #fff;
+}
+
+.heading h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+}
+
+.servicesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 11px;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.smallHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top:2rem
+}
+.smallHeading span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 23px;
+  color: #011926;
+}
+
+.rectangle {
+  width: 76px;
+  height: 3px;
+  background: #e3feff;
+}
+.servicesIntroduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.servicesIntroductionText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.servicesIntroductionText h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 38px;
+  color: #011926;
+  margin-bottom: 2rem;
+}
+
+.servicesIntroductionText span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #444444;
+  margin: 0 2rem;
+}
+
+.servicesIntroductionBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 42px;
+  gap: 10px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.servicesIntroductions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+.servicesIntroductions h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #03658c;
+}
+
+.servicesIntroductions span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  align-items: center;
+  color: #444444;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  gap: 10px;
+  width: 8rem;
+  height: 3rem;
+  background: #012741;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.btn span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.line {
+  width: 75%;
+  height: 0px;
+  border: 3px solid rgba(68, 68, 68, 0.2);
+  transform: rotate(179.93deg);
+  margin: 3rem 0;
+}
+
+@media only screen and (max-width: 958px) {
+  .servicesIntroductionBoxes {
+    flex-direction: column;
+  }
+  .servicesIntroductionText h1 {
+    text-align: center;
+  }
+  .servicesIntroductions h1 {
+    text-align: center;
+  }
+  .servicesIntroductions span {
+    padding: 0 1rem;
+  }
+}

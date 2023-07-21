@@ -1,0 +1,262 @@
+.contactHeader {
+  height: auto;
+  background: linear-gradient(180deg,
+      #13161d 0%,
+      rgba(19, 22, 29, 0.97) 23.64%,
+      #13161df2 46.35%,
+      rgba(19, 22, 29, 0.94) 66.67%,
+      rgba(19, 22, 29, 0.94) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+}
+
+.imageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.heading h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px;
+  margin-bottom: 5rem;
+}
+
+.smallHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  align-self: stretch;
+  margin-top: 3rem;
+}
+
+.smallHeading span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 23px;
+  color: #012741;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 76px;
+  height: 3px;
+  background: #e3feff;
+}
+
+.line {
+  display: none;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+}
+
+.mainContent h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #444444;
+  margin: 1rem 0;
+}
+
+.mainContent span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #444444;
+}
+
+.allInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 42px;
+  gap: 10px;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 10px;
+  gap: 39px;
+  width: 40%;
+  height: 100%;
+  background: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  width: 50%;
+}
+
+.form span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #444444;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.contactInfo span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: #444444;
+}
+
+.communication {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.firstSpan {
+  margin-bottom: 2rem;
+}
+
+.sendForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-left: 1px solid rgba(68, 68, 68, 0.3);
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 958px) {
+  .allInfo {
+    flex-direction: column;
+  }
+
+  .info {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .sendForm {
+    border: hidden;
+  }
+
+  .line {
+    display: flex;
+    width: 100%;
+    height: 2px;
+    margin-top: 3rem;
+    background: #012741;
+  }
+
+  .mainContent h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #444444;
+  }
+
+  .mainContent span {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #444444;
+  }
+
+  .smallHeading {
+    margin-bottom: 3rem;
+  }
+
+  .firstSpan {
+    margin-bottom: 2rem;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+  }
+  .contactHeader {
+
+  }
+  .heading {
+    border-bottom: hidden;
+  }
+  .imageDiv{
+    margin: 0;
+  }
+}

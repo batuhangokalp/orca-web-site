@@ -1,0 +1,386 @@
+.aboutHeader {
+  height: auto;
+  background-color: #011926;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:10rem;
+  border-bottom: 2px solid #fff;
+}
+
+.heading h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+}
+
+.aboutServiceImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  margin-bottom: 2rem;
+  position: relative;
+  height: 30rem;
+  opacity: 0.9;
+}
+.experience {
+  position: absolute;
+  width: 210px;
+  height: 40%;
+  left: 0;
+  top: 0;
+  background: #03658c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience span:nth-child(1) {
+  position: absolute;
+  top: 15%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fefeff;
+}
+
+.experience span:nth-child(3) {
+  position: absolute;
+  top: 55%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefeff;
+}
+.learnMore {
+  position: absolute;
+  width: 320px;
+  height: 60%;
+  left: 210px;
+  top: 40%;
+  background: #012741;
+  border-radius: 0px 12px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.learnMore span:nth-child(1) {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #fefeff;
+  top: 10%;
+  left: 10%;
+}
+.learnMore span:nth-child(2) {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #fefeff;
+  top: 28%;
+  left: 10%;
+}
+.learnMore span:nth-child(3) {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  bottom: 10%;
+  left: 10%;
+}
+.learnMore span:nth-child(3) a {
+  text-decoration: none;
+  color: #fefeff;
+}
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 11px;
+  gap: 10px;
+  width: 100%;
+}
+
+.aboutContent span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 23px;
+  color: #012741;
+}
+.aboutContent h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #444444;
+}
+
+.rectangle {
+  width: 76px;
+  height: 2px;
+  background: #e3feff;
+}
+
+.aboutText {
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+  gap: 10px;
+}
+
+.aboutText span {
+  width: 1209px;
+  height: 106px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  color: #444444;
+}
+
+.visionAndMission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.visionAndMissionHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #012741;
+}
+
+.visionAndMissionContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 42px;
+  width: 100%;
+  gap: 10px;
+}
+
+.ourMissionAndVision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0rem 0.5rem;
+  gap: 10px;
+  width: 50%;
+  height: 10rem;
+}
+
+.ourMissionAndVision h3 {
+  width: 100%;
+  height: 23px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #012741;
+}
+
+.ourMissionAndVision span {
+  width: 100%;
+  height: 65px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #444444;
+}
+
+.whatWeDo {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  color: #012741;
+  margin-top: 3rem;
+  text-align: center;
+}
+.introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #f8f7f7;
+}
+
+.aboutDevelopment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem 2rem;
+  gap: 10px;
+}
+
+.aboutDevelopment h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  color: #012741;}
+
+.aboutDevelopment span {
+  width: 597px;
+  height: 157px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  padding: 36px 0px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #444444;
+}
+
+.aboutDevelopmentLearnMoreBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 6rem;
+  height: 2.5rem;
+  background: #012741;
+  border-radius: 4px;
+  margin-top: 5rem;
+}
+
+.aboutDevelopmentLearnMoreBtn h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: auto;
+}
+
+.aboutDevelopmentLearnMoreBtn a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 958px) {
+  .introduction {
+    flex-direction: column;
+  }
+  .visionAndMissionContent {
+    flex-direction: column;
+  }
+  .ourMissionAndVision {
+    width: 100%;
+    align-items: center;
+    text-align: left;
+  }
+  .visionAndMissionContent {
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  .visionAndMissionHeading {
+    font-size: 25px;
+    text-align: center;
+  }
+  .whatWeDo {
+    font-size: 25px;
+    text-align: center;
+  }
+  .aboutDevelopment {
+    width: 100%;
+  }
+  .aboutDevelopment h1 {
+    font-size: 25px;
+  }
+  .aboutDevelopment span {
+    width: 100%;
+  }
+  .aboutDevelopmentLearnMoreBtn {
+    margin-top: 7rem;
+  }
+  .experience {
+    width: 120px;
+    height: 40%;
+  }
+  .learnMore {
+    width: 180px;
+    height: 60%;
+    left: 120px;
+    top: 40%;
+  }
+  .experience span:nth-child(1) {
+    font-weight: 700;
+    font-size: 39px;
+  }
+
+  .experience span:nth-child(3) {
+    font-size: 19px;
+    line-height: 32px;
+  }
+
+  .learnMore span:nth-child(1) {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .learnMore span:nth-child(2) {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    top: 35%;
+  }
+  .learnMore span:nth-child(3) {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}

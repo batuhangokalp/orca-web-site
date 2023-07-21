@@ -1,0 +1,286 @@
+.newsHeader {
+  height: auto;
+  background-color: #011926;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  border-bottom: 2px solid #fff;
+}
+
+.heading h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+}
+
+.eachNewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.allDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  margin-top: 3rem;
+}
+
+.bannerDiv {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.newsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 4rem;
+}
+.newsDiv h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #03658c;
+  margin-bottom: 3rem;
+}
+.newsDiv span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #011926;
+  margin: 4rem 0;
+  padding: 0 5rem;
+}
+.newsImage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.linkDiv {
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
+
+.linkDiv a {
+  text-decoration: none;
+  color: #13161d;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.linkDiv a:hover {
+  color: #03658c;
+}
+.backBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 3rem;
+}
+.btnBack {
+  width: 8rem;
+  height: 3rem;
+  margin-right: 10%;
+  background-color: #03658c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backBtn a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-decoration: none;
+}
+.allNewsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+}
+
+.firstDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+.firstPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding-left: 5rem;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+.secondPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.firstNews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75%;
+  background: #fff;
+  border: 1px solid #e3feff;
+  box-shadow: 4px 4px 10px 7px rgba(227, 254, 255, 0.5);
+  border-radius: 10px;
+  padding: 1rem 0;
+  margin: 3rem;
+}
+.firstNews h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #03658c;
+  text-align: center;
+  margin-top: 2rem;
+}
+.firstNews span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #444444;
+  margin-top: 2rem;
+}
+.continueBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  height: 2rem;
+  width: 6.5rem;
+  border-radius: 4px;
+  background-color: #03658c;
+}
+.continueBtn a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 958px) {
+  .allDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bannerDiv {
+    width: 20%;
+    margin-bottom: 3rem;
+  }
+  .newsDiv span {
+    padding: 0 2rem;
+  }
+  .allNewsDiv {
+    flex-direction: column;
+  }
+  .firstPage {
+    width: 100%;
+    padding-left: 0;
+  }
+  .firstDiv {
+    flex-direction: column;
+    width: 100%;
+  }
+  .secondPage {
+    width: 100%;
+  }
+  .firstNews {
+    width: 85%;
+    margin-bottom: 3rem;
+    align-items: center;
+    flex-direction: column;
+  }
+  .newsImage {
+    width: 80%;
+  }
+  .newsDiv span {
+    font-size: 15px;
+  }
+  .continueBtn {
+    margin-right: -2rem;
+    height: 2.5rem;
+  }
+}

@@ -1,0 +1,491 @@
+.orcaProductsContainer {
+  overflow: hidden;
+  padding: 0;
+  margin: -8px;
+}
+.productsHeader {
+  height: auto;
+  background-color: #011926;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  border-bottom: 2px solid #fff;
+}
+
+.heading h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+}
+
+.bannerHeading {
+  width: 100%;
+  background-color: #f1f4ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+}
+.introDiv {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 6rem;
+}
+.mobileIntroDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px;
+  width: 30rem;
+  height: 34rem;
+}
+.mobileApp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  height: 80%;
+  top: 10%;
+  position: relative;
+  z-index: 5;
+}
+.largeCircle {
+  width: 175px;
+  height: 175px;
+  left: 30%;
+  bottom: 80%;
+  background: linear-gradient(136.26deg, #ffeba3 4.31%, #ff974c 93.02%);
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+}
+.smallCircle {
+  width: 120px;
+  height: 120px;
+  left: 75%;
+  bottom: 80%;
+  position: relative;
+  background: linear-gradient(180deg, #9d9fe2 -5271.5%, #2c3d92 -5102.32%);
+  border-radius: 100%;
+  z-index: 2;
+}
+.introDiv h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #011926;
+  text-align: center;
+}
+.introDiv span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #011926;
+}
+
+.rectangle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 110px;
+  height: 2px;
+  background: #e3feff;
+  margin-bottom: 1.5rem;
+}
+.buyNowBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 3rem;
+  margin-top: 2rem;
+  background: #011926;
+  border-radius: 6px;
+}
+.buyNowBtn a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.appStores {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 30px 0;
+  gap: 40px;
+  width: 575px;
+  height: 145px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.appStore {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 155px;
+  height: 51.35px;
+  border: 1px solid #011926;
+  border-radius: 90px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.orcaFacilities {
+  width: 100%;
+  background: #ebefff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.allFacilites {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
+}
+.eachFacility {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 15rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+.eachFacility h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #011926;
+}
+.eachFacility span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 141.02%;
+  letter-spacing: 0.04em;
+  padding: 0 1.25rem;
+  color: #011926;
+}
+.aboutApp {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #f8f7f7;
+}
+.allDiv {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.mobileDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.aboutDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 30px;
+  gap: 10px;
+  width: 60%;
+}
+.aboutDiv h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: #011926;
+}
+
+.aboutDiv span:nth-child(1) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #011926;
+}
+.aboutDiv span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #011926;
+  padding: 2rem 0;
+}
+.aboutDiv ul li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #011926;
+}
+.rectangleAbout {
+  width: 50px;
+  height: 3px;
+  background: #e3feff;
+}
+
+.sliderContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  gap: 10px;
+}
+.sliderContainer span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #011926;
+}
+.sliderContainer h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: #011926;
+}
+
+.imageSlider {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.allProductsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  width: 100%;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+  width: 85%;
+  height: 100%;
+}
+
+.firstProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 28%;
+  background: #fff;
+  border: 1px solid #e3feff;
+  box-shadow: 4px 4px 10px 7px rgba(227, 254, 255, 0.5);
+  border-radius: 10px;
+  margin: 2rem;
+}
+.firstProducts h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #03658c;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+}
+.firstProducts span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #444444;
+  margin-top: 0.5rem;
+  padding: 0 1.5rem;
+}
+.firstProducts h6 {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #8d8d8d;
+  padding: 0 1.5rem;
+  margin-top: 0.5rem;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+.continueBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5rem;
+  height: 3rem;
+  width: 6.5rem;
+  border-radius: 4px;
+  background-color: #03658c;
+}
+.continueBtn a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+}
+.newsImage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 958px) {
+  .bannerHeading {
+    flex-direction: column;
+  }
+  .introDiv {
+    margin-bottom: 5rem;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+  .introDiv span:nth-child(3) {
+    padding: 0 5rem;
+    text-align: center;
+  }
+
+  .mobileIntroDiv {
+    margin-top: -10rem;
+  }
+  .allFacilites {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .eachFacility {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 13rem;
+  }
+  .eachFacility span {
+    padding: 0 2rem;
+    text-align: center;
+  }
+  .rectangle {
+    align-items: flex-start;
+  }
+  .appStores {
+    justify-content: center;
+  }
+  .mobileApp {
+    justify-content: center;
+    margin: auto;
+  }
+  .largeCircle {
+    left: 10%;
+  }
+  .allDiv {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .aboutDiv {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .aboutDiv h1 {
+    font-size: 26px;
+  }
+  .sliderContainer h1 {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .imageSlider {
+    margin-bottom: 2rem;
+  }
+  .firstProducts {
+    width: 85%;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+  .allNewsDiv {
+    flex-direction: column;
+  }
+  .continueBtn {
+    height: 2.5rem;
+  }
+}
