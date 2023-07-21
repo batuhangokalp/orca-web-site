@@ -44,12 +44,12 @@ export const Footer = () => {
           <br />
           <div className={styles.communication}>
             <BsWhatsapp color="#fff" size={20} />
-            <span> &ensp; +44 782 532 63 43</span>
+            <span> &ensp; +11 222 333 44 55</span>
           </div>
           <br /> <br />
           <div className={styles.communication}>
             <AiOutlineMail color="#fff" size={20} />
-            <span>&ensp;info@orcabs.com</span>
+            <span>&ensp;info@test.com</span>
           </div>
           <br />
           <br />
@@ -57,11 +57,11 @@ export const Footer = () => {
             <ImLocation color="#fff" size={20} />
             &ensp;
             <span>
-              Orca Business Solutions.
+              Test.
               <br />
-              2, Lapwing Close HP2 6DS
-              <br /> Hemel Hempstead <br />
-              Hertfordshire UNITED KINGDOM
+              2, Test Test Test
+              <br /> Test Test <br />
+              Test UNITED KINGDOM
             </span>
           </div>
           <br />

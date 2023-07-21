@@ -9,13 +9,13 @@ const CopyRight = () => {
   return (
     <div className={styles.copyRight}>
       <div className={styles.socialInfo}>
-        <Link href="https://www.linkedin.com/company/orca-business-solutions">
+        <Link href="#">
           <GrLinkedin color="#9B9B9B" size={30} />
         </Link>
-        <Link href="https://github.com/OrcaBusinessSolution">
+        <Link href="#">
           <GrGithub color="#9B9B9B" size={30} />
         </Link>
-        <Link href="https://facebook.com/orcabs">
+        <Link href="#">
           <GrFacebook color="#9B9B9B" size={30} />
         </Link>
       </div>

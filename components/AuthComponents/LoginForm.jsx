@@ -103,7 +103,7 @@ const LoginForm = () => {
                   />
                 </label>
                 <ReCAPTCHA
-                  sitekey="6Ler9-ckAAAAAK4OPriOc9FikmGCkOCONW9jWBsS"
+                  sitekey="test"
                   onChange={onChange}
                   hl="en"
                 />
