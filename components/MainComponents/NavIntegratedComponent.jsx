@@ -17,7 +17,7 @@ const NavIntegratedComponent = ({
     <div className={styles.projects}>
       <div className={styles.img}>
         <Image
-          src="/../public/pictures/OrcaOne.png"
+          src="/pictures/OrcaOne.png"
           alt="orca, product, orca one app, business, orca business solutions, solutions, commerce, e-commerce, navision, software, development, stock, stock management, company"
           width={100}
           height={100}

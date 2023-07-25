@@ -27,7 +27,7 @@ const Header = () => {
       <div className={styles.logo}>
         <Link href="/">
           <Image
-            src="/../public/pictures/OrcaLogoLight.png"
+            src="/pictures/OrcaLogoLight.png"
             alt="orca, product, orca one app, business, orca business solutions, solutions, commerce, e-commerce, navision, software, development, stock, stock management, company"
             width={153}
             height={50}
@@ -41,7 +41,7 @@ const Header = () => {
             <li>ABOUT ORCA</li>
           </Link>
           <Link href="/products">
-            <li >
+            <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
               PRODUCTS
               {
                 isOpen && (

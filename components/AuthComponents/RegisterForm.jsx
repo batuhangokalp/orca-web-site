@@ -77,7 +77,7 @@ const RegisterForm = () => {
           <div className={styles.forms}>
             <div className={styles.logo}>
               <Image
-                src="/../public/pictures/OrcaLogoDark.png"
+                src="/pictures/OrcaLogoDark.png"
                 alt="orca, product, orca one app, business, orca business solutions, solutions, commerce, e-commerce, navision, software, development, stock, stock management, company"
                 width={153}
                 height={50}

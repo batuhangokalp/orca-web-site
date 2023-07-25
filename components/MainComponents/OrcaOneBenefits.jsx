@@ -8,7 +8,7 @@ const OrcaOneBenefits = () => {
 
       <div className={styles.orcaOneAppImage}>
         <Image
-          src="/../public/pictures/Kits.png"
+          src="/pictures/Kits.png"
           alt="orca, product, orca one app, business, orca business solutions, solutions, commerce, e-commerce, navision, software, development, stock, stock management, company"
           width={550}
           height={750}
@@ -30,7 +30,7 @@ const OrcaOneBenefits = () => {
             <div className={styles.orcaOneAppFeaturesLogo}>
               <div className={styles.firstFeatures}>
                 <Image
-                  src="/../public/pictures/StockManagement.png"
+                  src="/pictures/StockManagement.png"
                   alt="orca, product, orca one app, business, orca business solutions, solutions, commerce, e-commerce, navision, software, development, stock, stock management, company"
                   width={100}
                   height={100}
@@ -50,7 +50,7 @@ const OrcaOneBenefits = () => {
             <div className={styles.orcaOneAppFeaturesLogo}>
               <div >
               <Image
-                  src="/../public/pictures/Dashboard.png"
+                  src="/pictures/Dashboard.png"
                   alt="orca, product, orca one app, business, orca business solutions, solutions, commerce, e-commerce, navision, software, development, stock, stock management, company"
                   width={100}
                   height={100}

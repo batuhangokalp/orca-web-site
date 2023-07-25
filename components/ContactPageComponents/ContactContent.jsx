@@ -11,7 +11,7 @@ const ContactContent = () => {
     <div className={styles.contactContent}>
       <div className={styles.imageDiv}>
         <Image
-          src="/../public/pictures/ContactHeader.png"
+          src="pictures/ContactHeader.png"
           alt="orca, product, orca one app, business, orca business solutions, solutions, commerce, e-commerce, navision, software, development, stock, stock management, company"
           height={1}
           width={1}
