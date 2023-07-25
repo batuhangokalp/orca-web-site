@@ -49,7 +49,7 @@ const Header = () => {
 
                     <List className={styles.listAccordion} >
                       {
-                        myState.products.map((item) => {
+                        myState.map((item) => {
                           return (
                             <Link href={item.productLink} key={item.id}>
                               <ListItem disablePadding className={styles.acc}>

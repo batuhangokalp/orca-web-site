@@ -35,22 +35,23 @@ const RegisterForm = () => {
   };
 
   const onSubmit = async (values, actions) => {
-    let body = {
-      firstName: values.firstName,
-      lastName: values.lastName,
-      email: values.email,
-      password: values.password
-    }
-    axios.post("http://localhost:3008/api/users/register", body)
-      .then(function (response) {
-        setOpenSuccess(true);
-        handleReset();
-      })
-      .catch(function (error) {
-        if (error) {
-          setOpenError(true);
-        }
-      })
+    // let body = {
+    //   firstName: values.firstName,
+    //   lastName: values.lastName,
+    //   email: values.email,
+    //   password: values.password
+    // }
+    // axios.post("http://localhost:3008/api/users/register", body)
+    //   .then(function (response) {
+    //     setOpenSuccess(true);
+    //     handleReset();
+    //   })
+    //   .catch(function (error) {
+    //     if (error) {
+    //       setOpenError(true);
+    //     }
+    //   })
+    console.log(values);
 
   };
   const { values, errors, touched, handleSubmit, handleChange, handleBlur, handleReset } =
