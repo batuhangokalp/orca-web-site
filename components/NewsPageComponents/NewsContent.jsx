@@ -28,7 +28,7 @@ const NewsContent = ({ newsData }) => {
           <div className={styles.secondPage}>
             <div className={styles.firstDiv}>
               {newsData &&
-                newsData.products.map((news) => {
+                newsData.map((news) => {
                   return (
                     <div className={styles.firstNews} key={news.id}>
                       <div className={styles.newsImage}>

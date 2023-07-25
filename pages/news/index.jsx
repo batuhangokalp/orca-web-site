@@ -7,7 +7,28 @@ import { useContext, useEffect } from "react";
 import MyContext from "@/context/MyContext";
 import { useRouter } from "next/router";
 import { MetaDescriptionNews, MetaKeywords } from "@/components/GlobalComponents/MetaValues";
-
+const newsData = [
+  {
+    id: "1",
+    newsName: "Test 1",
+    newsExplain:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue blandit vulputate. Proin eleifend molestie ligula vitae tincidunt. Integer nulla sem, mattis eu nisl id, imperdiet tristique felis. Ut et sollicitudin nibh",
+      imgSrc: "/pictures/productimage.png",
+      imgAlt: "image, picture, product",
+      imgWidth: 200,
+      imgHeight: 200,
+  },
+  {
+    id: "2",
+    newsName: "Test 2",
+    newsExplain:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue blandit vulputate. Proin eleifend molestie ligula vitae tincidunt. Integer nulla sem, mattis eu nisl id, imperdiet tristique felis. Ut et sollicitudin nibh",
+      imgSrc: "/pictures/productimage.png",
+      imgAlt: "image, picture, product",
+    imgWidth: 200,
+    imgHeight: 200,
+  },
+];
 const News = ({ newsData }) => {
   const router = useRouter();
   const { myState } = useContext(MyContext);
@@ -37,9 +58,9 @@ const News = ({ newsData }) => {
 export default News;
 
 export const getServerSideProps = async (context) => {
-  let newsData = [];
-  const res = await fetch(`http://localhost:3008/api/news`);
-  newsData = await res.json();
+  // let newsData = [];
+  // const res = await fetch(`http://localhost:3008/api/news`);
+  // newsData = await res.json();
   return {
     props: {
       newsData,

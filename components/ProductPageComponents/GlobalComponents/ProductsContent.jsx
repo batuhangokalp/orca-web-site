@@ -4,14 +4,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 const ProductsContent = ({ products }) => {
-
+  console.log("products content", products);
   return (
     <>
       <Meta title="Products" />
       <div className={styles.allProductsDiv}>
         <div className={styles.products}>
           {products &&
-            products.products.map((products) => {
+            products.map((products) => {
               return (
                 <div className={styles.firstProducts} key={products.id}>
                   <div className={styles.newsImage}>
