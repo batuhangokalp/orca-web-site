@@ -41,7 +41,7 @@ const Header = () => {
             <li>ABOUT ORCA</li>
           </Link>
           <Link href="/products">
-            <li onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+            <li >
               PRODUCTS
               {
                 isOpen && (
