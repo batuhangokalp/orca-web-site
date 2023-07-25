@@ -7,10 +7,33 @@ import React, { useEffect, useState } from "react";
 import styles from "../../styles/Home.module.css";
 import MyContext from "@/context/MyContext";
 import { useContext } from "react";
-import { MetaDescriptionNews, MetaKeywords } from "@/components/GlobalComponents/MetaValues";
-
+import {
+  MetaDescriptionNews,
+  MetaKeywords,
+} from "@/components/GlobalComponents/MetaValues";
+const newsData = [
+  {
+    id: "1",
+    newsName: "Test 1",
+    newsExplain:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue blandit vulputate. Proin eleifend molestie ligula vitae tincidunt. Integer nulla sem, mattis eu nisl id, imperdiet tristique felis. Ut et sollicitudin nibh",
+    imgSrc: "/pictures/productimage.png",
+    imgAlt: "image, picture, product",
+    imgWidth: 200,
+    imgHeight: 200,
+  },
+  {
+    id: "2",
+    newsName: "Test 2",
+    newsExplain:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue blandit vulputate. Proin eleifend molestie ligula vitae tincidunt. Integer nulla sem, mattis eu nisl id, imperdiet tristique felis. Ut et sollicitudin nibh",
+    imgSrc: "/pictures/productimage.png",
+    imgAlt: "image, picture, product",
+    imgWidth: 200,
+    imgHeight: 200,
+  },
+];
 const NewsDetail = ({ newsData }) => {
-
   const router = useRouter();
   const { id } = router.query;
   const [news, setNews] = useState();
@@ -24,11 +47,11 @@ const NewsDetail = ({ newsData }) => {
   }, []);
 
   useEffect(() => {
-    (myState == "") && handleRedirect()
-  }, [])
+    myState == "" && handleRedirect();
+  }, []);
 
   const handleRedirect = () => {
-    router.push('/');
+    router.push("/");
   };
 
   return (
@@ -50,9 +73,9 @@ const NewsDetail = ({ newsData }) => {
 export default NewsDetail;
 
 export const getServerSideProps = async (context) => {
-  let newsData = [];
-  const res = await fetch(`http://localhost:3008/api/news`);
-  newsData = await res.json();
+  // let newsData = [];
+  // const res = await fetch(`http://localhost:3008/api/news`);
+  // newsData = await res.json();
   return {
     props: {
       newsData,

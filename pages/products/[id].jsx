@@ -9,15 +9,40 @@ import { Footer } from "@/components/GlobalComponents/Footer";
 import Meta from "@/components/GlobalComponents/Meta";
 import MyContext from "@/context/MyContext";
 import { useContext } from "react";
-import { MetaDescriptionProducts, MetaKeywords } from "@/components/GlobalComponents/MetaValues";
+import {
+  MetaDescriptionProducts,
+  MetaKeywords,
+} from "@/components/GlobalComponents/MetaValues";
 
-const ProductsDetail = ({ productsData}) => {
-
+const productsData = [
+  {
+    id: "1",
+    productName: "Test 1",
+    productSlogan: "Lorem Ipsum 1",
+    productExplain:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue blandit vulputate. Proin eleifend molestie ligula vitae tincidunt. Integer nulla sem, mattis eu nisl id, imperdiet tristique felis. Ut et sollicitudin nibh",
+    imgSrc: "/pictures/productimage.png",
+    imgAlt: "image, picture, product",
+    imgWidth: 200,
+    imgHeight: 200,
+  },
+  {
+    id: "2",
+    productName: "Test 2",
+    productSlogan: "Lorem Ipsum 2",
+    productExplain:
+      "Phasellus tincidunt augue felis, sed sagittis dui tincidunt nec. Donec ex nisl, euismod a pellentesque a, malesuada sed sapien. In ipsum turpis, ornare nec ante at, posuere ornare velit.",
+    imgSrc: "/pictures/productimage.png",
+    imgAlt: "image, picture, product",
+    imgWidth: 200,
+    imgHeight: 200,
+  },
+];
+const ProductsDetail = ({ productsData }) => {
   const router = useRouter();
   const { id } = router.query;
   const [project, setProject] = useState();
   const { myState } = useContext(MyContext);
-
 
   useEffect(() => {
     const l_project = productsData.products.find((data) => {
@@ -27,11 +52,11 @@ const ProductsDetail = ({ productsData}) => {
   }, []);
 
   useEffect(() => {
-    (myState == "") && handleRedirect()
-  }, [])
+    myState == "" && handleRedirect();
+  }, []);
 
   const handleRedirect = () => {
-    router.push('/');
+    router.push("/");
   };
 
   return (
@@ -75,9 +100,9 @@ const ProductsDetail = ({ productsData}) => {
 export default ProductsDetail;
 
 export const getServerSideProps = async (context) => {
-  let productsData = [];
-  const res = await fetch(`http://localhost:3008/api/products`);
-  productsData = await res.json();
+  // let productsData = [];
+  // const res = await fetch(`http://localhost:3008/api/products`);
+  // productsData = await res.json();
   return {
     props: {
       productsData,
